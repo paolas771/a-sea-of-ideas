@@ -1,6 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-
+import Link from 'next/link'
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -12,8 +12,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Hobby Blog",
-  description: "Blog dedicated to things I create.",
+  title: "a Sea of Ideas",
+  description: "Come along as I bring my ideas to life.",
 };
 
 export default function RootLayout({ children }) {
@@ -22,7 +22,16 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <header>
+          <nav>
+              <Link href='/'>Home</Link>
+              <Link href='/blog'>Blog</Link>
+              <Link href='/about'>About</Link>
+            </nav>
+          </header>
+          <main>
+            {children}
+          </main>
       </body>
     </html>
   );
