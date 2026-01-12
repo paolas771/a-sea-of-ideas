@@ -3,6 +3,6 @@ import Welcome from '@/markdown/welcome.mdx'
 import Link from 'next/link'
 export default function Home() {
   return (
-   <div>about</div>
+   <div className="content">about</div>
   );
 }

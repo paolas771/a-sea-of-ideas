@@ -19,28 +19,54 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --background: var(--gray);
-    max-width: fit-content;
+    max-width: 620px;
     margin-left: auto;
     margin-right: auto;
   }
 }
 main{
-  border: 1px solid var(--grayblue);
+  border-style: hidden solid solid solid;
+  border-width: 1px;
+  border-color: var(--darkblue);
+  padding: 0 20px;
+  margin-top: -10px;
 }
 body {
   background: var(--background);
   color: white;
   font-family: Arial, Helvetica, sans-serif;
-  padding: 0px 10px;
+  padding-top: 20px;
+  /* border-style: hidden solid solid solid;
+  border-width: 1px;
+  border-color: var(--grayblue); */
+}
+article, .content{
+  padding-top: 68px;
+}
+header{
+  background: var(--darkblue);
+  /* padding: 10px 25px; */
+  border-radius: 10px;
+  box-shadow: 0 6px 10px var(--grayblue);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icon{
+  border-radius: 10px;
+  margin-left: 5px;
+  /* width: 40px; */
+  height: 40px; 
+  box-shadow: 0 4px 4px rgb(131, 146, 173, .25);
 }
 nav{
-  background: var(--darkblue);
+  /* background: var(--darkblue); */
   display: flex;
   justify-content: flex-end;
   align-content: space-around;
   gap:24px;
-  padding: 10px;
-  border-radius: 0px 0px 10px 10px;
-  margin-bottom: 48px;
+  padding: 14px 20px;
+  /*border-radius: 0px 0px 10px 10px;
+  margin-bottom: 48px; */
   
 }

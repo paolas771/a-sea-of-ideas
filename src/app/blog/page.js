@@ -7,7 +7,7 @@ export default async function Home() {
    const data = JSON.parse(file);
 
   return (
-    <div>
+    <div className="content">
       <section>
         <ul>
           <li>All</li>

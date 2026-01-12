@@ -3,6 +3,8 @@ import Welcome from '@/markdown/welcome.mdx'
 import Link from 'next/link'
 export default function Home() {
   return (
+    <article className="prose">
       <Welcome/>
+      </article>
   );
 }

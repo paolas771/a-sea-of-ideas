@@ -1,9 +1,11 @@
+import Link from 'next/link'
+
 export default async function Page({ params }) {
   const { slug } = await params
-  console.log(slug)
   const { default: Post } = await import(`@/markdown/${slug}.mdx`)
   return (
     <article className="prose blog">
+      <Link href="/blog">&larr; Back to all blogs</Link>
       <Post />
     </article>
   )
