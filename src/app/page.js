@@ -5,6 +5,9 @@ export default function Home() {
   return (
     <article className="prose">
       <Welcome/>
+      <div>
+        <h2>Latest Blogs</h2>
+      </div>
       </article>
   );
 }

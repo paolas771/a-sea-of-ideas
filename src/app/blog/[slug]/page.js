@@ -5,7 +5,7 @@ export default async function Page({ params }) {
   const { default: Post } = await import(`@/markdown/${slug}.mdx`)
   return (
     <article className="prose blog">
-      <Link href="/blog">&larr; Back to all blogs</Link>
+      <Link href="/blog" className="back_button"> <p className="arrow">&#10140;</p> Back to all blogs</Link>
       <Post />
     </article>
   )

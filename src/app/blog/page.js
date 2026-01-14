@@ -8,8 +8,8 @@ export default async function Home() {
 
   return (
     <div className="content">
-      {/* <section>
-        <ul>
+      <section hidden>
+        <ul className="all_tags">
           <li>All</li>
           <li>Sewing</li>
           <li>Embriodery</li>
@@ -17,7 +17,7 @@ export default async function Home() {
           <li>Cooking</li>
           <li>Coding</li>
         </ul>
-      </section> */}
+      </section>
       <section className="all_post">
       {
         data.map((blog, i) => {
