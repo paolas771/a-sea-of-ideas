@@ -8,7 +8,7 @@ export default async function Home() {
 
   return (
     <div className="content">
-      <section>
+      {/* <section>
         <ul>
           <li>All</li>
           <li>Sewing</li>
@@ -17,17 +17,26 @@ export default async function Home() {
           <li>Cooking</li>
           <li>Coding</li>
         </ul>
-      </section>
-      <section>
+      </section> */}
+      <section className="all_post">
       {
         data.map((blog, i) => {
           return(
-            <Link key={i} href={`/blog/${blog.slug}`}>
-              <h5>tag</h5>
-              <h3>{blog.title}</h3>
-              <p>{blog.description}</p>
-              <button>Read More</button>
-            </Link>
+            <div className="post" key={i}>
+              <Image 
+                src="/images/icon.png"
+                width={200}
+                height={105}
+                alt="a Sea of Ideas icon"
+                className="blog_image"
+              />
+              <Link href={`/blog/${blog.slug}`} className="blog_summary">
+                <h5 className="tag">tag</h5>
+                <h2 className="blog_title">{blog.title}</h2>
+                <p className="blog_description">{blog.description}</p>
+                {/* <button>Read More</button> */}
+              </Link>
+            </div>
           )
         })
       }
