@@ -113,7 +113,6 @@ nav{
 .blog{
   max-width: 720px;
   
-
 }
 .all_tags{
   display: flex;
@@ -148,5 +147,13 @@ nav{
 
 h1{
   padding-top: 20px;
+  color: var(--darkblue)
+}
+.content_image{
+  width: 100%;
+}
+blockquote p:before,
+blockquote p:after{
+  content: none;
 }
 
