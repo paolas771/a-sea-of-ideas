@@ -99,6 +99,7 @@ nav{
 }
 .blog_image{
   border-radius: 9px 0 0 10px;
+  height: 50%;
 }
 .tag{
   font-size: 14px;
@@ -151,6 +152,17 @@ h1{
 }
 .content_image{
   width: 100%;
+}
+.step_image{
+  display: block;
+  margin: auto;
+  width: 50%;
+  border-radius: 5px;
+}
+.final_images{
+  display:flex;
+  width: 30%;
+  gap: 30px;
 }
 blockquote p:before,
 blockquote p:after{

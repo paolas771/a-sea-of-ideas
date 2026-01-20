@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function BlogImage({img, alt, width, height}){
+export default function BlogImage({img, alt, width, height, className}){
     // console.log(img)
     return (
         <Image 
@@ -8,7 +8,7 @@ export default function BlogImage({img, alt, width, height}){
             width={width}
             height={height}
             alt={alt}
-            className="content_image"
+            className={className}
         />
     )
 }
