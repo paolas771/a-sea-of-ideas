@@ -96,6 +96,7 @@ nav{
   font-size: 24px;
   font-weight: bold;
   line-height: 130%;
+  color: var(--blue)
 }
 .blog_image{
   border-radius: 9px 0 0 10px;
@@ -149,6 +150,21 @@ nav{
 h1{
   padding-top: 20px;
   color: var(--darkblue)
+}
+.welcome{
+  article{
+    margin-bottom: 50px;
+  }
+}
+.latest_blogs{
+   color: var(--darkblue);
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.view_all{
+  text-decoration: underline;
+  color: var(--blue)
 }
 .content_image{
   width: 100%;
