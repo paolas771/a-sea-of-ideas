@@ -1,8 +1,10 @@
 import Image from "next/image";
-import Welcome from '@/markdown/welcome.mdx'
+import About from '@/markdown/about.mdx'
 import Link from 'next/link'
 export default function Home() {
   return (
-   <div className="content">about</div>
+   <div className="prose content about">
+    <About />
+   </div>
   );
 }

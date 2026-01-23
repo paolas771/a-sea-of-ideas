@@ -9,7 +9,7 @@ export default async function Home() {
     const data = JSON.parse(file);
   return (
     <div className="welcome">
-        <article className="prose ">
+        <article className="prose">
           <Welcome/>
         </article>
         <div>
