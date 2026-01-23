@@ -101,7 +101,7 @@ nav{
 .blog_image{
   border-radius: 9px 0 0 10px;
   height: 50%;
-  width: 50%;
+  width: 35%;
 }
 .tag{
   font-size: 14px;
@@ -114,7 +114,7 @@ nav{
   letter-spacing: -0.2px;
 }
 .blog{
-  max-width: 720px;
+  max-width: 99%;
   
 }
 .all_tags{
