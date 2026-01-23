@@ -1,7 +1,6 @@
 import Image from "next/image";
-import { promises as fs } from 'fs';
-import Link from 'next/link'
-export default async function BlogContainer({data}){
+import Link from 'next/link';
+export default function BlogContainer({data}){
 
     return(
         <section className="all_post">

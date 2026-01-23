@@ -101,6 +101,7 @@ nav{
 .blog_image{
   border-radius: 9px 0 0 10px;
   height: 50%;
+  width: 50%;
 }
 .tag{
   font-size: 14px;
@@ -156,7 +157,7 @@ h1{
     margin-bottom: 50px;
   }
 }
-.latest_blogs{
+.latest_blog{
    color: var(--darkblue);
     font-size: 1.6em;
     font-weight: bold;
@@ -164,10 +165,12 @@ h1{
 }
 .view_all{
   text-decoration: underline;
-  color: var(--blue)
+  color: var(--blue);
+  font-weight: 500;
 }
 .content_image{
   width: 100%;
+  height: auto;
 }
 .step_image{
   display: block;
