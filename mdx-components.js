@@ -1,4 +1,4 @@
-import BlogImage from "@/app/Components/BlogImage"
+import BlogImage from "@/app/_components/BlogImage"
 const components = {
   BlogImage: BlogImage
 }
