@@ -42,6 +42,7 @@ body {
 }
 article, .content{
   padding-top: 68px;
+  margin-bottom: 20px;
 }
 header{
   background: var(--darkblue);
@@ -100,8 +101,8 @@ nav{
 }
 .blog_image{
   border-radius: 9px 0 0 10px;
-  height: 50%;
-  width: 35%;
+  /* height: 50%; */
+  /* width: 35%; */
 }
 .tag{
   font-size: 14px;
@@ -158,6 +159,8 @@ h1{
     margin-bottom: 50px;
     max-width: 99%;
   }
+  margin-bottom: 20px;
+
 }
 .latest_blog{
   color: var(--blue);
